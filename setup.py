@@ -6,10 +6,15 @@ setup(
     description="Sovereign graph memory for AI agents. Self-hosted. Zero API costs.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="ARCHON Systems",
-    url="https://github.com/archonsystems/graphthink",
+    author="Sai Sharan",
+    author_email="saisharan.ssr@gmail.com",
+    url="https://github.com/saisharan81/graphthink",
     packages=find_packages(),
     python_requires=">=3.9",
+    project_urls={
+        "Source": "https://github.com/saisharan81/graphthink",
+        "Bug Tracker": "https://github.com/saisharan81/graphthink/issues",
+    },
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

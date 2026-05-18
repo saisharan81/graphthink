@@ -1,6 +1,6 @@
 """GraphThink client — wraps the Memory API."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 import json
 import urllib.request

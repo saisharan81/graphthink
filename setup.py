@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="graphthink",
-    version="0.1.0",
+    version="0.1.1",
     description="Sovereign graph memory for AI agents. Self-hosted. Zero API costs.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -10,6 +10,11 @@ setup(
     author_email="saisharan.ssr@gmail.com",
     url="https://github.com/saisharan81/graphthink",
     packages=find_packages(),
+    entry_points={
+        "console_scripts": [
+            "graphthink=graphthink:cli",
+        ],
+    },
     python_requires=">=3.9",
     project_urls={
         "Source": "https://github.com/saisharan81/graphthink",

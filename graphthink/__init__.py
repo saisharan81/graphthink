@@ -17,4 +17,4 @@ from .client import GraphThink, __version__
 from .cli import main as cli
 
 __all__ = ["GraphThink", "__version__", "cli"]
-__version__ = "0.1.2"
+__version__ = "0.2.0"
